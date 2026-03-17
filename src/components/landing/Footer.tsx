@@ -1,4 +1,5 @@
 ﻿import Image from "next/image"
+import Link from "next/link"
 
 const LINKS = [
   {
@@ -22,7 +23,7 @@ const LINKS = [
     label: "Legal",
     items: [
       { text: "Privacy Policy", href: "/privacy" },
-      { text: "Terms of Service", href: "#" },
+      { text: "Terms of Service", href: "/terms" },
     ],
   },
 ]
