@@ -41,7 +41,9 @@ export function Navbar() {
         {/* Desktop CTA */}
         <div className="hidden md:flex">
           <a
-            href="#"
+            href="https://chromewebstore.google.com/detail/ohilocjomjdnpdniihknbjgingjpedei"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all shadow-lg shadow-blue-200 hover:shadow-blue-300"
           >
             <Chrome className="w-4 h-4" />
@@ -66,7 +68,9 @@ export function Navbar() {
           <a href="#how-it-works" onClick={() => setOpen(false)} className="block text-sm text-gray-600 hover:text-gray-900 px-2 py-2 rounded-lg hover:bg-gray-50 transition-colors">How it works</a>
           <div className="pt-2">
             <a
-              href="#"
+              href="https://chromewebstore.google.com/detail/ohilocjomjdnpdniihknbjgingjpedei"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold h-10 px-4 rounded-full transition-colors w-full"
             >
               <Chrome className="w-4 h-4" />

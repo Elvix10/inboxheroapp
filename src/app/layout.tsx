@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   title: "InboxHero — Clean your Gmail inbox faster",
   description:
     "InboxHero is a Chrome extension that helps you review, organize, and clean unwanted emails directly inside Gmail with a simple and safe workflow.",
+  icons: {
+    icon: "/icon512.png",
+    apple: "/icon512.png",
+  },
   keywords: [
     "Gmail cleanup",
     "inbox management",

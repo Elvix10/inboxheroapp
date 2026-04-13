@@ -14,14 +14,18 @@ export function FinalCTA() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a
-            href="#"
+            href="https://chromewebstore.google.com/detail/ohilocjomjdnpdniihknbjgingjpedei"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white text-blue-600 px-10 py-5 rounded-2xl text-xl font-bold hover:bg-blue-50 transition-all shadow-xl"
           >
             <Chrome className="w-5 h-5" />
             Add to Chrome — It&apos;s Free
           </a>
           <a
-            href="#"
+            href="https://chromewebstore.google.com/detail/ohilocjomjdnpdniihknbjgingjpedei"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto flex items-center justify-center bg-blue-700 text-white border border-blue-400 px-10 py-5 rounded-2xl text-xl font-bold hover:bg-blue-800 transition-all"
           >
             Start Cleaning

@@ -35,7 +35,9 @@ export function HeroSection() {
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="#"
+            href="https://chromewebstore.google.com/detail/ohilocjomjdnpdniihknbjgingjpedei"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto flex items-center justify-center gap-2 bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all hover:scale-105 shadow-lg"
           >
             <Chrome className="w-5 h-5" />
