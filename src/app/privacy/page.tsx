@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Learn how InboxHero handles your data. We do not read email content and do not store any email data on external servers.",
 }
 
-const LAST_UPDATED = "March 15, 2026"
+const LAST_UPDATED = "April 27, 2026"
 
 export default function PrivacyPage() {
   return (
@@ -77,10 +77,14 @@ export default function PrivacyPage() {
 
           <Divider />
 
-          <Section title="2. What InboxHero accesses">
+          <Section title="2. Gmail Data Access">
             <p>
-              InboxHero uses the Gmail API provided by Google. To function,
-              the extension requests the following Gmail permissions:
+              InboxHero may request access to Gmail data using Google
+              permissions in order to allow users to manage their inbox.
+            </p>
+            <p>
+              This includes actions such as selecting emails and moving them
+              to the Trash as part of the cleanup process.
             </p>
             <ul>
               <li>
@@ -96,8 +100,9 @@ export default function PrivacyPage() {
               </li>
             </ul>
             <Callout>
-              InboxHero never reads the content of your emails. Subject lines,
-              message bodies, and attachments are never accessed or processed.
+              InboxHero does not access, read, or analyze the content of
+              emails. All actions are explicitly initiated by the user and
+              performed within the user&apos;s Gmail account.
             </Callout>
           </Section>
 
@@ -127,17 +132,30 @@ export default function PrivacyPage() {
 
           <Divider />
 
-          <Section title="4. Data storage">
+          <Section title="4. Data Protection and Security">
             <p>
-              InboxHero does not operate any backend server. No email data,
-              metadata, or account information is stored outside of your
-              device.
+              InboxHero implements appropriate security measures to protect
+              user data:
             </p>
+            <ul>
+              <li>
+                All email interactions occur locally within the user&apos;s
+                browser.
+              </li>
+              <li>
+                No email content is stored or transmitted to external servers.
+              </li>
+              <li>
+                Secure HTTPS is used for any external communication.
+              </li>
+              <li>
+                Access to Gmail data is limited strictly to the features
+                provided by the extension.
+              </li>
+            </ul>
             <p>
-              Any temporary data required to operate the extension (such as
-              session tokens from Google OAuth) is handled locally in your
-              browser in accordance with Chrome extension storage APIs and
-              Google&apos;s own security standards.
+              InboxHero does not sell, share, or transfer user data to third
+              parties.
             </p>
           </Section>
 
